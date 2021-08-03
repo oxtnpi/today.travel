@@ -14,17 +14,19 @@
 
 <body class="body">
     <div class="body__wrapper">
-        <section class="search">
+        <section class="body__search search">
             <h2 class="visually-hidden">Поиск</h2>
             <form class="search__form form ">
                 <div class="form__container ">
                     <div class="form_from">
                         <div class="from__dropdown dropdown">
-                            <button class="dropdown__btn dropdown__btn-from  btn dropdown-toggle" data-toggle="dropdown">
+                            <button class="dropdown__btn dropdown__btn-from  btn dropdown-toggle"
+                                data-toggle="dropdown">
                                 Из Алматы
                             </button>
                             <div class="dropdown-menu dropdown__form-dropdown">
-                                <div class="form__dropdown-item form__dropdown-item__selected" data-value="1">Алматы</div>
+                                <div class="form__dropdown-item form__dropdown-item__selected" data-value="1">Алматы
+                                </div>
                                 <div class="form__dropdown-item" data-value="2">Нур-Султана (Астаны)</div>
                                 <div class="form__dropdown-item" data-value="3">Москвы</div>
                                 <div class="form__dropdown-item" data-value="4">Караганды</div>
@@ -42,7 +44,8 @@
 
                     </div>
                     <div class="form__countries countries dropdown">
-                        <button class="btn dropdown__btn dropdown__btn-countries  dropdown-toggle" type="button" data-toggle="dropdown">
+                        <button class="btn dropdown__btn dropdown__btn-countries  dropdown-toggle" type="button"
+                            data-toggle="dropdown">
                             <label>Страна, курорт или отель</label>
                             <span>Египет</span>
                         </button>
@@ -147,7 +150,8 @@
 
                     </div>
                     <div class="form__date dropdown">
-                        <button class="btn dropdown__btn dropdown__btn-date dropdown-toggle" type="button" data-toggle="dropdown">
+                        <button class="btn dropdown__btn dropdown__btn-date dropdown-toggle" type="button"
+                            data-toggle="dropdown">
                             <label>Дата</label>
                             <span class="date_field">9 авг. ± 3 дня</span>
                         </button>
@@ -212,7 +216,8 @@
                         </div>
                     </div>
                     <div class="form_tourists form_dropdown dropdown" data-type="tourists">
-                        <button class="dropdown__btn dropdown__btn-tourists btn dropdown-toggle" type="button" data-toggle="dropdown">
+                        <button class="dropdown__btn dropdown__btn-tourists btn dropdown-toggle" type="button"
+                            data-toggle="dropdown">
                             <label>Человек</label>
                             <span class="tourists_field">2 взр</span>
                         </button>
@@ -240,9 +245,239 @@
                     </div>
                     <button class="form__submit" type="submit" id="form_button" class="">Найти</button>
                 </div>
-    </div>
-    </form>
-    </section>
+            </form>
+        </section>
+        <section class="body__result result">
+            <section class="result__filter filter">
+                <div class="filter__container">
+                    <h2 class="filter__title">
+                        Фильтры
+                    </h2>
+                    <form class="filter__form">
+                        <div class="filter__container-search">
+                            <input class="filter__input filter__search" type="search">
+                        </div>
+                        <div class="filter__container-coast container-coast">
+                            <div class="container-coast__container">
+                                <h3 class="container-coast__title">Бюджет на ночь</h3>
+                                <button class="container-coast__button-close">-</button>
+                            </div>
+                            <ul class="container-coast__list">
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">20 000 - 30 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">30 000 - 40 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">30 000 - 40 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">40 000 - 50 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">50 000 - 60 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">60 000 - 70 000 <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                                <li class="container-coast__item">
+                                    <input class="filter__chechbox filter__coast" type="checkbox">
+                                    <label class="filter__coast-lable">70 000 + <span
+                                            class="filter__coast-currency">&#8376</span></label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter__container-date container-date">
+                            <div class="container-date__container">
+                                <h3 class="container-date__title">Колличество дней</h3>
+                                <button class="container-date__button-close">-</button>
+                            </div>
+                            <ul class="container-date__list">
+                                <li class="container-date__item">
+                                    <input class="filter__chechbox filter__date" type="checkbox">
+                                    <label class="filter__date-lable">8 дней</label>
+                                </li>
+                                <li class="container-date__item">
+                                    <input class="filter__chechbox filter__date" type="checkbox">
+                                    <label class="filter__date-lable">9 дней</label>
+                                </li>
+                                <li class="container-date__item">
+                                    <input class="filter__chechbox filter__date" type="checkbox">
+                                    <label class="filter__date-lable">10 дней</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter__container-rating container-rating">
+                            <div class="container-rating__container">
+                                <h3 class="container-rating__title">Колличество звезд</h3>
+                                <button class="container-rating__button-close">-</button>
+                            </div>
+                            <ul class="container-rating__list">
+                                <li class="container-rating__item">
+                                    <input class="filter__chechbox filter__rating" type="checkbox">
+                                    <label class="filter__rating-lable">3</label>
+                                </li>
+                                <li class="container-rating__item">
+                                    <input class="filter__chechbox filter__rating" type="checkbox">
+                                    <label class="filter__rating-lable">4</label>
+                                </li>
+                                <li class="container-rating__item">
+                                    <input class="filter__chechbox filter__rating" type="checkbox">
+                                    <label class="filter__rating-lable">4+</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter__container-food container-food">
+                            <div class="container-food__container">
+                                <h3 class="container-food__title">Питание</h3>
+                                <button class="container-food__button-close">-</button>
+                            </div>
+                            <ul class="container-food__list">
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">3-х разовое питание</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">AI 24H</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">AI SOFT</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">FULL BOARD+</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">Все включено</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">Завтрак и ужин</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">Только завтрак</label>
+                                </li>
+                                <li class="container-food__item">
+                                    <input class="filter__chechbox filter__food" type="checkbox">
+                                    <label class="filter__food-lable">Ультра все включено</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter__container-region container-region">
+                            <div class="container-region__container">
+                                <h3 class="container-region__title">Колличество звезд</h3>
+                                <button class="container-region__button-close">-</button>
+                            </div>
+                            <ul class="container-region__list">
+                                <li class="container-region__item">
+                                    <input class="filter__chechbox filter__region" type="checkbox">
+                                    <label class="filter__region-lable">Дахаб</label>
+                                </li>
+                                <li class="container-region__item">
+                                    <input class="filter__chechbox filter__region" type="checkbox">
+                                    <label class="filter__region-lable">Таба</label>
+                                </li>
+                                <li class="container-region__item">
+                                    <input class="filter__chechbox filter__region" type="checkbox">
+                                    <label class="filter__region-lable">Шарм-эль-Шейх</label>
+                                </li>
+                                <li class="container-region__item">
+                                    <input class="filter__chechbox filter__region" type="checkbox">
+                                    <label class="filter__region-lable">Хургада</label>
+                                </li>
+                                <li class="container-region__item">
+                                    <input class="filter__chechbox filter__region" type="checkbox">
+                                    <label class="filter__region-lable">Эль-Гуна</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="body__tour tour">
+                <div class="tour__container">
+                    <h2 class="tour__title visually-hidden">Туры</h2>
+                    <div class="tour__containers">
+                        <div class="tour__string-result string-result">
+                            <label class="string-result__label">Найдено <span
+                                    class="string-result__span string-result__span-count">1914</span>туров в
+                                <span class="string-result__span-countries">Египет</span> на <span
+                                    class="string-result__span-data">06.08 - 12.08</span> от
+                                <span class="string-result__span-coast">485 352 <span
+                                        class="string-result__span-currency">&#8376</span></label>
+                            <label class="string-result__discription">Из <span
+                                    class="string-result__discription-location">Алматы</span>на
+                                <span class="string-result__discription-date">8-10 дней</span>
+                                за <span class="string-result__discription-people">2 взрослых</span>
+                            </label>
+                        </div>
+                        <div class="tour__buttons-container battons-container">
+                            <button class="buttons-container__button buttons__chep-exp">
+                                От дешевых к дорогим
+                            </button>
+                            <button class="buttons-container__button buttons__popular">
+                                По популярности
+                            </button>
+                            <button class="buttons-container__button buttons__prem">
+                                Только премиум отели
+                            </button>
+                        </div>
+                    </div>
+                    <div class="tour__container-tour container-tour">
+                        <div class="container-tour__description">
+                            <img class="container-tour__img" src="./img/39519_1_de57ea94.jpeg" width="300px"
+                                height="200px">
+                            <div class="container-tour__rating">3</div>
+                            <a class="container-tour__tour-link">
+                                <h3 class="container-tour__tour-title">MAZAR RESORT & SPA 3*</h3>
+                            </a>
+                            <div class="container-tour__location">Шарм-эль-Шейх из города Алматы
+                                с 09.08 на 9 дней, Все включено</div>
+                            <a class="container-tour__more">Еще 13 туров</a>
+                        </div>
+                        <div class="container-tour__tour-coast tour-coast">
+                            <div class="tour-coast__string">Цена за <span class="tour-coast__people">1 взрослых</span>
+                            <span class="tour-coast__coast">от 242 676<span
+                                class="tour-coast__coast-currency">&#8376</span></span></div>
+                        </div>
+                        <div class="container-tour__tour-coast tour-coast">
+                            <div class="tour-coast__string">Цена за <span class="tour-coast__people">2 взрослых</span>
+                            <span class="tour-coast__coast">от 485 352<span
+                                class="tour-coast__coast-currency">&#8376</span></span></div>
+                        </div>
+                        <a class="tour-coast__button" href="#">Подробнее</a>
+                    </div>
+                    <aside class="tour__banner">
+                        <h3>В туры обычно включено</h3>
+                        <ul class="tour__list">
+                            <li>Перелет</li>
+                            <li>Трансфер</li>
+                            <li>Проживание</li>
+                            <li>Питание</li>
+                            <li>Страховка</li>
+                        </ul>
+                    </aside>
+                </div>
+            </section>
+        </section>
+
     </div>
 
 </body>
