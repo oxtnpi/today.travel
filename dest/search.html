@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн поиск туров</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="body__wrapper">
+        <section class="search">
+            <h2 class="visually-hidden">Поиск</h2>
+            <form class="search__form form ">
+                <div class="form__container ">
+                    <div class="form_from">
+                        <div class="from__dropdown dropdown">
+                            <button class="dropdown__btn dropdown__btn-from  btn dropdown-toggle" data-toggle="dropdown">
+                                Из Алматы
+                            </button>
+                            <div class="dropdown-menu dropdown__form-dropdown">
+                                <div class="form__dropdown-item form__dropdown-item__selected" data-value="1">Алматы</div>
+                                <div class="form__dropdown-item" data-value="2">Нур-Султана (Астаны)</div>
+                                <div class="form__dropdown-item" data-value="3">Москвы</div>
+                                <div class="form__dropdown-item" data-value="4">Караганды</div>
+                                <div class="form__dropdown-item" data-value="5">Шымкента</div>
+                                <div class="form__dropdown-item" data-value="6">Актобе</div>
+                                <div class="form__dropdown-item" data-value="7">Актау</div>
+                                <div class="form__dropdown-item" data-value="8">Уральска</div>
+                                <div class="form__dropdown-item" data-value="9">Атырау</div>
+                                <div class="form__dropdown-item" data-value="10">Оренбурга</div>
+                                <div class="form__dropdown-item" data-value="11">Челябинска</div>
+                                <div class="form__dropdown-item" data-value="12">Бишкека</div>
+                                <div class="form__dropdown-item" data-value="13">Ташкент</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form__countries countries dropdown">
+                        <button class="btn dropdown__btn dropdown__btn-countries  dropdown-toggle" type="button" data-toggle="dropdown">
+                            <label>Страна, курорт или отель</label>
+                            <span>Египет</span>
+                        </button>
+                        <div class="dropdown-menu form-dropdown">
+                            <div class="destination-list">
+                                <div class="direction_selected">
+                                    <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="wsf-selected" data-type="country" checked="checked" data-city="1" data-country="18" data-value="18"><label>Египет<div class="price">от 227&nbsp;762
+                                                &nbsp;тг.
+                                            </div></label></div>
+                                </div>
+                                <div class="direction_popular">
+                                    <ul>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="0"><label>Любой
+                                                    регион
+                                                    <div class="price">от 227&nbsp;762 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="direction_popular">
+                                    <div class="header">Популярные курорты</div>
+                                    <ul>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="169"><label>Шарм-эль-Шейх, <span>Египет</span>
+                                                    <div class="price">от 203&nbsp;359 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="197"><label>Хургада,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 244&nbsp;031 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="166"><label>Дахаб,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 300&nbsp;115 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="direction_popular">
+                                    <div class="header">Остальные курорты</div>
+                                    <ul>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="281"><label>Марса-Алам,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 278&nbsp;281 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="284"><label>Эль-Гуна,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 351&nbsp;062 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="168"><label>Таба,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 388&nbsp;737 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="3516"><label>Мерса
+                                                    Матрух, <span>Египет</span>
+                                                    <div class="price">от 912&nbsp;762 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                        <li class="direction_country">
+                                            <div class="checkbox full-filling_checkbox"><input type="radio" class="destination-item" name="region" data-type="region" data-city="1" data-country="18" data-value="167"><label>Нувейба,
+                                                    <span>Египет</span>
+                                                    <div class="price">от 643&nbsp;043 &nbsp;тг.</div>
+                                                </label></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form__date dropdown">
+                        <button class="btn dropdown__btn dropdown__btn-date dropdown-toggle" type="button" data-toggle="dropdown">
+                            <label>Дата</label>
+                            <span class="date_field">9 авг. ± 3 дня</span>
+                        </button>
+                        <div class="form-title">
+                        </div>
+                        <div class="date_dropdown dropdown-menu form_dropdown_menu">
+                            <div class="days">
+                                <div class="pull-left">
+                                    Выберите когда вам удобно лететь
+                                </div>
+                                <div class="pull-right">
+                                    <div class="checkbox full-filling_checkbox">
+                                        <input type="checkbox" checked="">
+                                        <label><span></span>3 дня</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="calendar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_duration form_dropdown dropdown" data-type="duration">
+                        <div class="from__dropdown dropdown">
+                            <button class="dropdown__btn  btn dropdown-toggle" type="button" data-toggle="dropdown">
+                                <label>Количество дней</label>
+                                <span class="duration_field">на 8-10 дней</span>
+                            </button>
+                            <div class="form-title">
+
+
+                            </div>
+                            <div class="duration_dropdown dropdown-menu">
+                                <div class="info">Выбраны даты <b>9 авг. ± 3 дня</b> на 8-10 дней</div>
+                                <div class="days nr-wrapper">
+                                    <div class="nr-item" data-value="5"><span>5</span></div>
+                                    <div class="nr-item" data-value="6"><span>6</span></div>
+                                    <div class="nr-item" data-value="7"><span>7</span></div>
+                                    <div class="nr-item nr-item-left nr-item-bound" data-value="8"><span>8</span></div>
+                                    <div class="nr-item nr-item-selected" data-value="9"><span>9</span></div>
+                                    <div class="nr-item nr-item-right nr-item-bound" data-value="10"><span>10</span>
+                                    </div>
+                                    <div class="nr-item" data-value="11"><span>11</span></div>
+                                    <div class="nr-item" data-value="12"><span>12</span></div>
+                                    <div class="nr-item" data-value="13"><span>13</span></div>
+                                    <div class="nr-item" data-value="14"><span>14</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_stars form_dropdown dropdown" data-type="stars">
+                        <button class="dropdown__btn  btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            <label>Кол-во звёзд</label>
+                            <span class="stars_field">любое</span>
+                        </button>
+                        <div class="stars_dropdown dropdown-menu">
+                            <div class="form__dropdown-item" data-value="5">5 звезд</div>
+                            <div class="form__dropdown-item" data-value="4">4 звезды</div>
+                            <div class="form__dropdown-item" data-value="3">3 звезды</div>
+                            <div class="form__dropdown-item" data-value="2">2 звезды</div>
+                            <div class="form__dropdown-item" data-value="1">1 звезда</div>
+                            <div class="form__dropdown-item form__dropdown-item__selected" data-value="0">любое</div>
+                        </div>
+                    </div>
+                    <div class="form_tourists form_dropdown dropdown" data-type="tourists">
+                        <button class="dropdown__btn dropdown__btn-tourists btn dropdown-toggle" type="button" data-toggle="dropdown">
+                            <label>Человек</label>
+                            <span class="tourists_field">2 взр</span>
+                        </button>
+                        <div class="tourists_dropdown dropdown-menu">
+                            <div class="counter adults-count">
+                                <label>Взрослые: </label>
+                                <button type="button" class="prev"></button>
+                                <span>2</span>
+                                <button type="button" class="next"></button>
+                            </div>
+                            <div class="counter children-count">
+                                <label>Дети: </label>
+                                <button type="button" class="prev disable"></button>
+                                <span>0</span>
+                                <button type="button" class="next"></button>
+                            </div>
+                            <div class="child ages hidden">
+                                <label>Возраст детей:</label>
+                                <input type="text" class="hidden" placeholder="-">
+                                <input type="text" class="hidden" placeholder="-">
+                                <input type="text" class="hidden" placeholder="-">
+                                <input type="text" class="hidden" placeholder="-">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="form__submit" type="submit" id="form_button">Найти</button>
+                </div>
+    </form></section></div>
+    
+    
+    
+
+</body>
+
+</html>

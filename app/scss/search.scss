@@ -1,0 +1,125 @@
+.search {
+    width: 100%;
+    max-width: $desktop-width;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: #02c8ae;
+}
+
+.form {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form__container {
+    display: flex;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.dropdown {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn:hover{
+    background-color: rgb(237, 241, 238);
+}
+
+.btn:active {
+border-radius: 5px 0 0 0;
+}
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 70%;
+    color: #003669;
+    margin: 0;
+    padding: 0;
+}
+
+.form__dropdown-item {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.form__dropdown-item:hover{
+    background-color: rgb(36, 61, 51);
+    color: #fff;
+}
+
+.btn {
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-right: 1px solid rgb(236, 236, 236);
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #003669;
+    font-size: 90%;
+}
+
+.dropdown__btn-contries {
+    width: 200px;
+}
+
+.btn:hover .dropdown-menu {
+    display: flex;
+}
+
+.form__submit{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border: 1px solid #62FFD1;
+    border-radius: 0 5px 5px 0;
+    background-color: #62FFD1;
+    margin: 0;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #003669;
+    font-size: 90%;
+}
+
+.form__submit:hover{
+    border: 1px solid #4ae4b6;
+    background-color: #4ae4b6;
+}
+
+.dropdown__btn-from {
+    width: 150px;
+    border: 1px solid #fff;
+    border-right: 1px solid rgb(236, 236, 236);
+    border-radius: 5px 0 0 5px;
+}
+.dropdown__btn-tourists {
+    border: none;
+}
+
+.dropdown__btn span {
+    display: none;
+}

@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.body__wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: $tablet-width)  {
+
+  .body__wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: $mobile-width)  {
+  .body__wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+}

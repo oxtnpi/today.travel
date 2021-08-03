@@ -1,0 +1,36 @@
+{
+  "name": "today.travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxtnpi/today.travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/oxtnpi/today.travel.git",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "bootstrap": "^3.4.1",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-posthtml": "^3.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^2.0.0",
+    "jquery": "^3.6.0",
+    "postcss": "^8.2.8",
+    "posthtml-include": "^1.6.2",
+    "tailwindcss": "^2.0.3"
+  }
+}
